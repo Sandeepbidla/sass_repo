@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.slide1 .btn_orange {
+  background-color: #ff9900;
+  color: #fff;
+  border: 2px solid #cc6600;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 7px 15px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-family: "Oswald", sans-serif;
+}
+
+.slide1 .btn_orange:hover, .slide1 .btn_orange :focus, .slide1 .btn_orange :active {
+  cursor: pointer;
+  background-color: #cc6600;
+}
+
+.slide2 .btn_blue {
+  background-color: #02c7e6;
+  color: #fff;
+  border: 2px solid #0197b2;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 7px 15px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-family: "Oswald", sans-serif;
+}
+
+.slide2 .btn_blue:hover, .slide2 .btn_blue :focus, .slide2 .btn_blue :active {
+  cursor: pointer;
+  outline: none;
+  background-color: #0197b2;
+}
+
+.slide3 .btn_green {
+  background-color: #8db737;
+  color: #fff;
+  border: 2px solid #719d18;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 7px 15px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-family: "Oswald", sans-serif;
+}
+
+.slide3 .btn_green:hover, .slide3 .btn_green :focus, .slide3 .btn_green :active {
+  cursor: pointer;
+  outline: none;
+  background-color: #719d18;
+}
+
+.slide4 .btn_red {
+  background-color: #cc0000;
+  color: #fff;
+  border: 2px solid #a20303;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 7px 15px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-family: "Oswald", sans-serif;
+}
+
+.slide4 .btn_red:hover, .slide4 .btn_red :focus, .slide4 .btn_red :active {
+  cursor: pointer;
+  outline: none;
+  background-color: #eb0f0f;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 1.1em;
+  scroll-behavior: smooth;
+}
+
+.head {
+  background-color: #231f21;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+.slide1 {
+  background-image: url("../images/slide1_bg.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 130px 0px;
+}
+
+.slide1 h1 {
+  margin: 0 0 30px;
+  padding: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: "Oswald", sans-serif;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  .slide1 h1 {
+    font-size: 1.9em;
+  }
+}
+
+.slide1 p {
+  margin: 0 0 14px;
+  padding: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.slide2 {
+  background-image: url("../images/slide2_bg.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 130px 0px;
+}
+
+.slide2 h1 {
+  margin: 0 0 30px;
+  padding: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: "Oswald", sans-serif;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  .slide2 h1 {
+    font-size: 1.9em;
+  }
+}
+
+.slide2 p {
+  margin: 0 0 14px;
+  padding: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.slide3 {
+  background-image: url("../images/slide3_bg.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 130px 0px;
+}
+
+.slide3 h1 {
+  margin: 0 0 30px;
+  padding: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: "Oswald", sans-serif;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  .slide3 h1 {
+    font-size: 1.9em;
+  }
+}
+
+.slide3 p {
+  margin: 0 0 14px;
+  padding: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.slide4 {
+  background-image: url("../images/slide4_bg.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 130px 0px;
+}
+
+.slide4 h1 {
+  margin: 0 0 30px;
+  padding: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: "Oswald", sans-serif;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  .slide4 h1 {
+    font-size: 1.9em;
+  }
+}
+
+.slide4 p {
+  margin: 0 0 14px;
+  padding: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-toggler {
+  width: 47px;
+  height: 34px;
+  background-color: #7eb444;
+  border: none;
+}
+
+.navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+/*# sourceMappingURL=main.css.map */
